@@ -1,0 +1,26 @@
+**Ejercicio 13**
+
+
+palabra = ""
+Palabra = input("Ingrese la palabra a invertir: \n")
+Palabrain = ""
+for i in Palabra:
+
+  	Palabrain = i + Palabrain
+  if Palabra!= Palabrain:
+  	print("No es palíndromo")
+  else:
+  	print("Es palíndromo")
+
+
+
+**Ejercicio 14**
+
+cantidad_letras = 0
+  texto = input("Digite un texto: ")
+
+  for c in texto:
+  	if c.isalpha():
+  		cantidad_letras +=1
+
+  print("Cantidad de letras:", cantidad_letras)
